@@ -2,6 +2,8 @@ A budget ledger and overspend circuit breaker for any agent orchestration layer.
 
 If you run multi-agent workflows without per-goal spending limits, this is for you. If you already have centralized billing with hard quotas, you don't need it.
 
+<p align="center"><img src="docs/demo.gif" alt="demo" width="720"></p>
+
 ## Problem
 
 Agent orchestration tools talk about capabilities; almost none treat **per-agent budget as a first-class resource** (see paperclipai/paperclip for the "company metaphor" — org chart, budget, governance — which is where this gap became obvious). The overlooked angle: enterprise adoption of agent swarms is bottlenecked less by capability than by *cost accountability*. Today the common failure mode is a runaway loop discovering, hours later, that one subagent burned your monthly quota.
